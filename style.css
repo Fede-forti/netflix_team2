@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    padding: 5% 16%;
+    align-items: center;
+    gap: 55px;
+    border-bottom: 8px solid #222;
+}
+
+img{
+    width: 493px;
+}
+
+img.card-img {
+    width: 543px;
+}
+
+video {
+    width: 342px;
+}
+
+.card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+}
+
+.card-subtitle {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.card-video {
+position: absolute;
+margin-left: -443px;
+margin-top: 40px;
+z-index: 0;
+}
+
+.card-img {position: relative;
+    z-index: 1;
+}
