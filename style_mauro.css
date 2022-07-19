@@ -60,7 +60,6 @@ video {
     display: flex;
     left: 50%;
     margin: 0 auto;
-    min-width: 15em;
     padding: 0.25em 0.65em;
     position: absolute;
     transform: translateX(-50%);
@@ -69,10 +68,11 @@ video {
 
 .card_image{
     width: 51px;
-    height: 72px;
     margin-right: 16px;
 }
-
+.text_card{
+    flex-grow: 1;
+}
 .text_01{
     font-size: 1em;
     color: #ffffff;
@@ -85,4 +85,8 @@ video {
 }
 
 .animation_gif{
+    background: url(assets/video/download-icon.gif) 50% no-repeat;
+    width: 3em;
+    height: 3em;
+    background-size: 100%;
 }
