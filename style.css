@@ -10,7 +10,8 @@ body{
 }
 
 button {
-    color: #e50914;
+    background-color: #e50914;
+    color: white;
 }
 
 section {
