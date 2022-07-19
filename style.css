@@ -1,14 +1,18 @@
 * {
     letter-spacing: 0!important;
 
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .ac-picture{
     max-width: 100%;
     border-bottom: 8px solid #222;
-    margin-top: -10px;
-    height: 748px;
+    margin-top: -4px;
+
+    height: 744px;
     background: transparent no-repeat center;
     background-size: cover;
 }
@@ -25,10 +29,12 @@
     right: 0;
     top: 0;
 
+    height: 740px;
+
     border-bottom: 8px solid #222;
 }
 
-.ac-headings{
+/* .ac-headings{
     color: white;
     margin-top: -500px;
     text-align: center;
@@ -55,5 +61,5 @@
     margin-left: 300px;
     text-align: center;
 
-}
+} */
 
