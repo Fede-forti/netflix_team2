@@ -7,12 +7,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
+
 .ac-picture{
     max-width: 100%;
     border-bottom: 8px solid #222;
-    margin-top: -4px;
+    margin-top: -3px;
 
-    height: 744px;
+    height: 741px;
     background: transparent no-repeat center;
     background-size: cover;
 }
@@ -29,7 +33,7 @@
     right: 0;
     top: 0;
 
-    height: 740px;
+    height: 737px;
 
     border-bottom: 8px solid #222;
 }
