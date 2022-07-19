@@ -1,15 +1,8 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
 .d-flex {
     display: flex;
     padding: 5% 16%;
     align-items: center;
     gap: 55px;
-    border-bottom: 8px solid #222;
 }
 
 img{
