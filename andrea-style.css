@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+      color: #fff;
+  }
+  
+  header{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 26px;
+      position: absolute;
+      width: 100%;
+      z-index: 5;
+  }
+  
+  header .logo-al{
+      display: block;
+      position: relative;
+      left: 20px;
+         
+  }
+  
+  header .logo-al svg{
+      fill: #e50914;
+      height: 45px;
+      padding-top: 0,5rem;
+      width: 165px;
+       
+  }
+  
+  header div+div{
+      text-align: right;
+  }
+  
+  header a.button-al {
+      display: inline-block;
+      background-color: #e50914;
+      color: #fff;
+      text-decoration: none;
+      padding: 7px 17px;
+      border-radius: 3px;
+  }
+  
+  header select{
+      background: transparent;
+      color: #fff;
+      padding: 6px 17px;
+      padding: 6px 0 6px 20px;
+      border-radius: 3px;
+  }
+  
+  header div.select-al{
+      display: inline-block;
+      margin-right: 30px;
+      
+  
+  }
+  
+  header div.select-al img{
+      width: 20px;
+      height: 18px;
+      color: #fff;
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 4px;
+  }
+  
+    option{
+      background-color: grey;
+    }
+  
+    img{
+      width: 100%;
+      
+     }
+  
+       /* Effetto sfumato */
+  
+    div.cover-al {
+      position: fixed;
+  
+    }
+  
+    div.cover-al div.gradient{
+  
+      background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+      position: absolute;
+      inset: 0; 
+    }
+  
+  
+    div.cover-al div.gradient{
+      background-image: linear-gradient(to top, rgba (0,0,0,));
+      position: absolute;
+      
+  }
+  
+  div .cover-al div.background-al img{
+    max-width: 100%;
+   
+   
+    }
+  
+    
+  /* centriamo il content e form */
+  
+  div.cover-al div.content-al{
+    position: absolute;
+    inset: 0;
+    display: grid;
+    align-items: center;
+    text-align: center;
+  
+  
+  
+  }
+  
+  
