@@ -6,12 +6,11 @@
 
 .ac-picture{
     max-width: 100%;
-    /* border-bottom: 8px solid #222; */
-    margin-top: -63px;
-}
-
-.ac-image{
-    width: 100%;
+    border-bottom: 8px solid #222;
+    margin-top: -10px;
+    height: 748px;
+    background: transparent no-repeat center;
+    background-size: cover;
 }
 
 .ac-shadow{
