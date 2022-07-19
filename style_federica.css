@@ -1,4 +1,3 @@
-
 body{
     background-color: black;
     font-family: 'NFSans_Regular';
@@ -11,10 +10,37 @@ body{
 }
 
 button {
-    color: #e50914;
+    background-color: #e50914;
+    color: white;
 }
 
 section {
     color: white;
     border-bottom: 8px solid #222;
+}
+
+#faq_accordion input {
+    display: none;
+}
+
+label {
+    display: block;
+    background-color: #303030;
+    cursor: pointer;
+    text-align: left;
+    transition: ease .5s;
+}
+
+.hidecontent {
+    display: block;
+    background-color: #303030;
+    cursor: text;
+}
+
+input + label + .hidecontent {
+    display: none;
+}
+
+input:checked + label + .hidecontent {
+    display: block;
 }
