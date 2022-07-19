@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    font-family: 'NFSans_Regular';
+
+}
+
+@font-face {
+    font-family: 'NFSans_Regular';
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
+}
+
+button {
+    color: #e50914;
+}
+
+section {
+    color: white;
+    border-bottom: 8px solid #222;
+}
