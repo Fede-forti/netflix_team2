@@ -1,0 +1,60 @@
+* {
+    letter-spacing: 0!important;
+
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.ac-picture{
+    max-width: 100%;
+    /* border-bottom: 8px solid #222; */
+    margin-top: -63px;
+}
+
+.ac-image{
+    width: 100%;
+}
+
+.ac-shadow{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+
+    /* background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8)); */
+
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    border-bottom: 8px solid #222;
+}
+
+.ac-headings{
+    color: white;
+    margin-top: -500px;
+    text-align: center;
+}
+
+.ac-title{
+    font-size: 3.125rem;
+}
+
+.ac-subtitle{
+    font-size: 1.625rem;
+}
+
+.ac-h3{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    color: white;
+
+}
+
+.ac-form{
+    max-width: 950px;
+    padding-top: .85rem;
+    margin-left: 300px;
+    text-align: center;
+
+}
+
