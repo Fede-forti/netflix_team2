@@ -107,19 +107,3 @@
    
    
     }
-  
-    
-  /* centriamo il content e form */
-  
-  div.cover-al div.content-al{
-    position: absolute;
-    inset: 0;
-    display: grid;
-    align-items: center;
-    text-align: center;
-  
-  
-  
-  }
-  
-  
