@@ -1,31 +1,25 @@
 * {
-    letter-spacing: 0!important;
-
     font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-}
-
 .ac-picture{
-    max-width: 100%;
     border-bottom: 8px solid #222;
-    margin-top: -3px;
+    margin-top: 1px;
 
+/*css per ridimensionare l'immagine*/
+    max-width: 100%;
     height: 741px;
     background: transparent no-repeat center;
     background-size: cover;
 }
 
 .ac-shadow{
+/*css per il gradient*/
     background: rgba(0,0,0,.4);
     background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
-
-    /* background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8)); */
 
     bottom: 0;
     left: 0;
@@ -33,15 +27,14 @@ body{
     right: 0;
     top: 0;
 
+/*css per il border*/
     height: 737px;
-
-    border-bottom: 8px solid #222;
+    border-bottom: 3px solid #222;
 }
 
-/* .ac-headings{
+.ac-headings{
     color: white;
-    margin-top: -500px;
-    text-align: center;
+    Text-align: center;
 }
 
 .ac-title{
@@ -52,7 +45,7 @@ body{
     font-size: 1.625rem;
 }
 
-.ac-h3{
+/* .ac-h3{
     font-size: 1.2rem;
     padding-bottom: 20px;
     color: white;
