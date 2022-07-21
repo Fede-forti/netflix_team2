@@ -5,11 +5,11 @@
     gap: 55px;
 }
 
-img{
+#img-children{
     width: 493px;
 }
 
-img.card-img {
+.card-img{
     width: 543px;
 }
 
