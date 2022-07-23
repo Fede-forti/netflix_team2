@@ -1,16 +1,21 @@
 .d-flex {
     display: flex;
-    padding: 5% 16%;
+    margin: 0px 230px;
+    padding: 70px 45px;
     align-items: center;
     gap: 55px;
 }
 
-#img-children{
+#img-children {
     width: 493px;
 }
 
-.card-img{
+.card-img {
+    position: relative;
+    z-index: 1;
     width: 543px;
+    transform: translate(40px);
+    object-fit: contain;
 }
 
 video {
@@ -20,6 +25,7 @@ video {
 .card-title {
     font-size: 3.125rem;
     line-height: 1.1;
+    padding-bottom: 5%;
 }
 
 .card-subtitle {
@@ -28,12 +34,77 @@ video {
 }
 
 .card-video {
-position: absolute;
-margin-left: -443px;
-margin-top: 40px;
-z-index: 0;
+    position: absolute;
+    margin-left: -403px;
+    margin-top: 40px;
+    z-index: 0;
 }
 
-.card-img {position: relative;
-    z-index: 1;
+
+
+@media screen and (max-width: 950px) {
+    .d-flex {
+        flex-direction: column;
+        text-align: center;
+        margin: inherit;
+        gap: inherit;
+    }
+
+    .animation-container {
+        margin-left: -75px;
+    }
+
+    .inverted>.d-flex {
+        flex-direction: column-reverse;
+    }
+}
+
+/*Media Query per Tablet*/
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+    .card-subtitle {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .card-title {
+        padding: 2%;
+        font-size: 2.5rem;
+    }
+
+}
+
+/*Media Query per Mobile*/
+
+@media only screen and (max-width: 350px) {
+
+    .d-flex {
+        padding: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .card-img {
+        width: 343px;
+    }
+
+    .card-video {
+        margin-left: -243px;
+    }
+
+    video {
+        width: 220px;
+    }
+
+    #img-children {
+        width: 293px;
+    }
+
+    .card-title {
+        padding: 2%;
+        font-size: 1.65rem;
+    }
 }
